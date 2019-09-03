@@ -28,6 +28,11 @@
         </div>
 
         @endforeach
+
+        <div class="row" align="center">
+        {{ $cursos->links() }}
+        </div>
+
       </div>
               
 
